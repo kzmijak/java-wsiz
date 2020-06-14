@@ -7,7 +7,7 @@ public class Pracownik extends Osoba
 {
     private String firma;
     private double zarobki;
-    private String typUmowy;
+    private RodzajeZatrudnienia typUmowy;
     private String stanowisko;
     private Pracownik przelozony;
     private Date umowaOd;
@@ -17,7 +17,7 @@ public class Pracownik extends Osoba
         super(dataUrodzenia, rodzina, pesel, imie, nazwisko, adresZameldowania);
         this.firma = firma;
         this.zarobki = zarobki;
-        this.typUmowy = typUmowy;
+        this.typUmowy = RodzajeZatrudnienia.UMOWAOPRACE;
         this.stanowisko = stanowisko;
         this.przelozony = przelozony;
         this.umowaOd = umowaOd;
@@ -40,11 +40,11 @@ public class Pracownik extends Osoba
         this.zarobki = zarobki;
     }
 
-    public String getTypUmowy() {
+    public RodzajeZatrudnienia getTypUmowy() {
         return typUmowy;
     }
 
-    public void setTypUmowy(String typUmowy) {
+    public void setTypUmowy(RodzajeZatrudnienia typUmowy) {
         this.typUmowy = typUmowy;
     }
 
