@@ -20,15 +20,20 @@ public class Firma {
 
     public void DodajPracownika(Pracownik nowyPracownik)
     {
+
         if(!this.pracownicy.values().contains(nowyPracownik))
         {
-            int pierwszeWolneId =
-                    this.pracownicy
-                            .keySet()
-                            .stream()
-                            .filter(id -> this.pracownicy.get(id+1) == null)
-                            .toArray(Integer[]::new)
-                            [0];
+            int pierwszeWolneId = 0;
+            if(this.pracownicy.size() > 0) {
+                pierwszeWolneId =
+                        this.pracownicy
+                                .keySet()
+                                .stream()
+                                .filter(id -> this.pracownicy.get(id + 1) == null)
+                                .toArray(Integer[]::new)
+                                [0];
+                pierwszeWolneId += 1;
+            }
             this.pracownicy.put(pierwszeWolneId, nowyPracownik);
         }
     }

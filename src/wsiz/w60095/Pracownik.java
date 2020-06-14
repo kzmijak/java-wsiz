@@ -13,6 +13,16 @@ public class Pracownik extends Osoba
     private Date umowaOd;
     private Date umowaDo;
 
+    public Pracownik(double zarobki)
+    {
+        super(null, null, "0000", "Jan", "Kowalski", "Poprzeczna");
+        this.firma = "firma";
+        this.zarobki = zarobki;
+        this.typUmowy = RodzajeZatrudnienia.UMOWAOPRACE;
+        this.stanowisko = "stanowisko";
+
+    }
+
     public Pracownik(Date dataUrodzenia, List<Osoba> rodzina, String pesel, String imie, String nazwisko, String adresZameldowania, String firma, double zarobki, String typUmowy, String stanowisko, Pracownik przelozony, Date umowaOd, Date umowaDo) {
         super(dataUrodzenia, rodzina, pesel, imie, nazwisko, adresZameldowania);
         this.firma = firma;
@@ -78,5 +88,18 @@ public class Pracownik extends Osoba
 
     public void setUmowaDo(Date umowaDo) {
         this.umowaDo = umowaDo;
+    }
+
+    @Override
+    public String toString() {
+        return "Pracownik{" +
+                "firma='" + firma + '\'' +
+                ", zarobki=" + zarobki +
+                ", typUmowy=" + typUmowy +
+                ", stanowisko='" + stanowisko + '\'' +
+                ", przelozony=" + przelozony +
+                ", umowaOd=" + umowaOd +
+                ", umowaDo=" + umowaDo +
+                '}';
     }
 }

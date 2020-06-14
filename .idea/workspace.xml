@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b024c1b5-9abd-4d99-8a0f-9c9c2ae772c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wsiz/w60095/RodzajeZatrudnienia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wsiz/w60095/StopnieProgramistow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/wsiz/w60095/IOHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsiz/w60095/Firma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsiz/w60095/Firma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wsiz/w60095/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsiz/w60095/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/wsiz/w60095/Pracownik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsiz/w60095/Pracownik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wsiz/w60095/Programista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wsiz/w60095/Programista.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +56,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591432144543</updated>
       <workItem from="1591432149245" duration="2554000" />
-      <workItem from="1592123876460" duration="8721000" />
+      <workItem from="1592123876460" duration="16986000" />
+      <workItem from="1592144049944" duration="1504000" />
     </task>
     <servers />
   </component>
